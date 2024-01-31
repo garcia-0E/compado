@@ -1,0 +1,22 @@
+.compado-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 4fr));
+    gap: 15px;
+}
+
+.compado-product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compado-product h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.compado-product p {
+    font-size: 1rem;
+    color: #555;
+}

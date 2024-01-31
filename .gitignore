@@ -1,0 +1,49 @@
+# Ignore core WordPress files
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-*/        # Ignore backup files
+wp-content/cache/           # Ignore cache files
+wp-content/upgrade/         # Ignore core upgrade files
+wp-content/uploads/         # Ignore user-uploaded content
+
+# Ignore node_modules (if using npm for frontend assets)
+node_modules/
+
+# Ignore Composer dependencies (if using Composer)
+vendor/
+
+# Ignore log files
+*.log
+error_log
+
+# Ignore environment configuration files
+.env
+
+# Ignore temporary files
+*.bak
+*.swp
+*.~*
+
+# Ignore database dumps
+*.sql
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore local development configuration
+local-config.php
+
+# Ignore system-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore custom files or directories
+custom-folder/
+custom-file.txt
